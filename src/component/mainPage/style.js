@@ -48,6 +48,18 @@ const Style = styled.div`
         }
     }
 }
-
+@media screen and (max-width:380px){
+    .searchFilter{
+       flex-wrap:wrap;
+       input{
+        margin:40px 0 5px 0;
+        width:300px;
+       }
+       select{
+        margin:20px 40PX 10px 0;
+        box-shadow: 0 2px 5px 2px rgb(204, 204, 205 , 0.2);
+    }
+    }
+}
 `
 export default Style

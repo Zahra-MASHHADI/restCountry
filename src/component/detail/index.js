@@ -86,8 +86,6 @@ export default function Detail(){
                     <Border array={countryData[0]}  />
                 </div>
             </div>
-          
-              
         </div>
             :
             <p> loading... </p>

@@ -71,5 +71,34 @@ button{
         }
     }
 }
+@media screen and (max-width:380px){
+    .detail{
+        display:flex;
+        flex-wrap: wrap;
+        .flag{
+            img{
+                margin:0;
+                max-width:265px;
+            }
+        }
+        .info{
+            margin-left:0;
+            .infoDetail{
+                h3{
+                    margin-left: 0;
+                }
+                .list{
+                    flex-wrap:wrap;
+                    ul{
+                        padding:0;
+                        }
+                    }
+                }
+            .border{
+                margin-left: 0;
+                margin-top:40px;
+            }
+        }
+}
 `
 export default Style

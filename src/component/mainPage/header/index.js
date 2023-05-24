@@ -21,9 +21,9 @@ export default function Header(){
     return(
       <Style>
             <div className="header">
-              <h2>
+              <h3>
                 Where in the world?
-              </h2>
+              </h3>
               <p onClick={changeLight} >
                 {isDarkMode === false ?
                 <>

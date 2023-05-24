@@ -35,5 +35,6 @@ ul{
         }
     }
 }
+
 `
 export default Style
