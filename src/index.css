@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(0, 0%, 98%);
+ 
+}
+body.mode{
+    background-color: hsl(207, 26%, 17%);
+    color: #fff;
+}
+body.mode div.header{
+  background-color: hsl(209, 23%, 22%) ;
+}
+body.mode input{
+  background-color: hsl(209, 23%, 22%) ;
+  box-shadow: 0 2px 5px 2px rgba(6, 6, 7, 0.2);
+}
+body.mode input::placeholder{
+  color:hsl(0, 0%, 100%);
+}
+body.mode .searchFilter select{
+  background-color: hsl(209, 23%, 22%) ;
+  box-shadow: 0 2px 5px 2px rgba(6, 6, 7, 0.2);
+  color: #fff;
+}
+body.mode .list div.country{
+    background-color: hsl(209, 23%, 22%) ;
+    
+}
+body.mode .list div.country p{
+  color: #fff;
+}
+body.mode .detail .info .border .borderCountry div{
+  background-color: hsl(209, 23%, 22%) ;
+  border-color:hsl(209, 23%, 22%);
+}
+.mode .borderCountry div p{
+  color:#fff;
+}
+body.mode button{
+  background-color: hsl(209, 23%, 22%) ;
+  color:#fff;
+}
+body.mode button svg{
+  color: #fff;
 }
 
 code {
+  
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+    margin:0 20px;
+    
+}
+ul{
+  list-style: none;
+}
+a{
+ text-decoration: none;
 }
