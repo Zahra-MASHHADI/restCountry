@@ -5,14 +5,18 @@ import reportWebVitals from './reportWebVitals';
 import Mainpage from './component/mainPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Detail from './component/detail';
+import DarkModeContex from './contextProvider/darkModeProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <BrowserRouter>
-  <Routes>
-    <Route path='/' element={<Mainpage/>} />
-    <Route path='/name/:name' element={<Detail/>} />
-  </Routes>
+    <DarkModeContex>
+      <Routes>
+        <Route path='/' element={<Mainpage/>} />
+        <Route path='/name/:name' element={<Detail/>} />
+      </Routes>
+    </DarkModeContex>
   </BrowserRouter>
 );
 
