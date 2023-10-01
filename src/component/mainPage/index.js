@@ -58,7 +58,6 @@ export default function Mainpage(){
                     <div className="searchFilter">
                         <Search/>
                         <select onChange={renderFarm} value={select}>
-                           
                             <option value={"All"}>
                             Filter by reigon
                             </option>

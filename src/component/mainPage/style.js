@@ -9,6 +9,7 @@ const Style = styled.div`
             border:none;
             margin:40px 40PX 10px 0;
             box-shadow: 0 2px 5px 2px rgb(204, 204, 205 , 0.2);
+            padding:10px;
         }
     }
     .list{
@@ -58,6 +59,7 @@ const Style = styled.div`
        select{
         margin:20px 40PX 10px 0;
         box-shadow: 0 2px 5px 2px rgb(204, 204, 205 , 0.2);
+       
     }
     }
 }
