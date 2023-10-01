@@ -4,12 +4,12 @@ import Style from "./style";
 import { useContext , useEffect} from "react";
 
 //context
-import { ContexDarkModeProvider } from "../../../contextProvider/darkModeProvider";
+import { ContextDarkModeProvider } from "../../../contextProvider/darkModeProvider";
 
 
 export default function Header(){
-  
-const [isDarkMode , setIsDarkMode] = useContext(ContexDarkModeProvider)
+
+const [isDarkMode , setIsDarkMode] = useContext(ContextDarkModeProvider)
 
 useEffect(() => {
   {isDarkMode === true ?
