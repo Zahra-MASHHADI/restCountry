@@ -7,15 +7,8 @@ import { useEffect, useState   } from "react";
 export default function Header(){
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-   {isDarkMode === true ?
-      document.body.classList.add('mode')
-    :
-      document.body.classList.remove('mode')
-    }
-  }, [isDarkMode]);
-
   function changeLight() {
+    document.body.classList.toggle('mode')
     setIsDarkMode(!isDarkMode);
   }
     return(

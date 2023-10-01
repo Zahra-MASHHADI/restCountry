@@ -12,6 +12,7 @@ button{
     margin:50px 0;
     svg{
         color: rgb(70, 90, 70);
+
     }
 }
 .detail{

@@ -7,6 +7,9 @@ const Style = styled.div`
     background-color:#fff;
     h3 , p{
         margin:20px 30px;
+        svg{
+            margin-right:5px;
+        }
     }
     
     
